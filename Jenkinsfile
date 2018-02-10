@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps{
-                sh 'echo "build"'
+                sh './gradlew build'
+                sh 'ls build/libs'
             }
         }
 
