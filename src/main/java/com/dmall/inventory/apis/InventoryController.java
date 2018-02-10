@@ -29,7 +29,7 @@ public class InventoryController {
         this.inventories = Arrays.asList(
             new Inventory("p001", "坚果手机pro2", 10),
             new Inventory("p002", "坚果手机pro", 10),
-            new Inventory("p004", "坚果手机", 8),
+            new Inventory("p004", "坚果v手机", 8),
             new Inventory("p003", "Oppo R11", 10));
     }
 
